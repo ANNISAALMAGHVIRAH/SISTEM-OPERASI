@@ -8,6 +8,7 @@ chmod +x tes.sh
 ls -l tes.sh
 ./tes.sh
 
+
 #MEMBUAT FILE SEDERHANA PROG01.SH
 nano prog01.sh
   #!/bin/bash
@@ -19,9 +20,11 @@ nano prog01.sh
 chmod +x prog01.sh
 ./prog01.sh
 
+
 #MENGGUNAKAN VARIABEL PADA SHELL INTERAKTIF
 VPT=UMMETRO
 echo $VPT
+
 
 #MENGGABUNGKAN 2 VARIABEL
 V1=UM
@@ -30,9 +33,11 @@ V3=METRO
 V4=$V1$V2$V3
 echo $V4
 
+
 #MENGGUNAKAN INSTRUKSI RED
 read nama
 echo $nama
+
 
 #MEMBUAT PROGRAM OPERASI MATEMATIKA PROG02.SH
 nano prog02.sh
@@ -43,6 +48,7 @@ let jumlah=$a+$b;
 echo $jumlah
 chmod  +x prog02.sh
 ./prog02.sh
+
 
 #CARA INSTALL CRONTAB
 sudo apt update
